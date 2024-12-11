@@ -80,4 +80,23 @@ nltk.download('stopwords')
 
 ```toml
 [tool.poetry.dependencies]
-python = "^
+python = "^3.10"
+gensim = "^4.3.3"
+openpyxl = "^3.1.5"
+matplotlib = "^3.9.3"
+```
+
+## 🔁 **Estructura del Proyecto**
+
+- **Datos**: Directorio que contiene los archivos de noticias en formato `.xlsx`.
+- **Cuadernos**: Contiene notebooks para ejecutar el preprocesamiento y generar representaciones numéricas.
+
+## ⚡ **Beneficios del Proyecto**
+
+- **Mejora en el Análisis**: Los datos preprocesados son adecuados para tareas avanzadas como clasificación o clustering.
+- **Representaciones Numeréticas**: Las representaciones TF-IDF y Word2Vec permiten aplicar modelos de aprendizaje automático con mayor eficacia.
+- **Escalabilidad**: Diseñado para manejar grandes volúmenes de texto en diversos idiomas.
+
+---
+© 2024 Jiliar Antonio Silgado Cardona. Proyecto de Preprocesamiento de Noticias para Análisis y Machine Learning.
+
